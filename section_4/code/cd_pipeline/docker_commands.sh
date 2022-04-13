@@ -2,6 +2,7 @@
 # build docker image
 docker build -t hands-on-jenkins/myapp .
 
+
 # check docker image
 docker images | grep hands-on-jenkins/myapp
 
